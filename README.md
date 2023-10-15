@@ -1,5 +1,8 @@
 # Домашнее задание к лекции «Контейнеры»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/kc4mk1m8jtdh7bhx?svg=true)](https://ci.appveyor.com/project/AlexAdutov/ajs-set)
+
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.

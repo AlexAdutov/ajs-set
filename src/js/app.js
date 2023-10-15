@@ -1,6 +1,21 @@
-// TODO: write your code here
-import sum from './basic';
+export default class Team {
+  constructor() {
+    this.members = new Set();
+  }
 
-console.log('worked');
+  add(char) {
+    if (this.members.has(char)) {
+      throw new Error('This character already exists');
+    }
 
-console.log(sum([1, 2]));
+    this.members.add(char);
+  }
+
+  addAll(characterList) {
+    this.members = new Set([...this.members, ...characterList]);
+  }
+
+  toArray() {
+    return [...this.members];
+  }
+}
